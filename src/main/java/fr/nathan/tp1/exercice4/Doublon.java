@@ -1,4 +1,4 @@
-package fr.nathan.tp1.exo4;
+package fr.nathan.tp1.exercice4;
 
 import java.util.HashMap;
 

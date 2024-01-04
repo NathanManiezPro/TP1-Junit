@@ -1,4 +1,4 @@
-package fr.nathan.tp1.exo1;
+package fr.nathan.tp1.exercice1;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;

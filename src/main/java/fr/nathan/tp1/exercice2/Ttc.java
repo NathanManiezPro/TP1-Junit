@@ -1,4 +1,4 @@
-package fr.nathan.tp1.exo2;
+package fr.nathan.tp1.exercice2;
 
 public class Ttc {
 

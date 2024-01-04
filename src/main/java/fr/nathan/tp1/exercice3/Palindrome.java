@@ -1,4 +1,4 @@
-package fr.nathan.tp1.exo3;
+package fr.nathan.tp1.exercice3;
 
 public class Palindrome {
 

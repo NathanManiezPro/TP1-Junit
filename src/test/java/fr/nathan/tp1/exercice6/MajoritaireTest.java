@@ -1,7 +1,6 @@
-package fr.nathan.tp1.exo6;
+package fr.nathan.tp1.exercice6;
 
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;

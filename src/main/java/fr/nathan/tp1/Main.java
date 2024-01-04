@@ -1,5 +1,5 @@
 package fr.nathan.tp1;
-import fr.nathan.tp1.exo1.Moyenne;
+import fr.nathan.tp1.exercice1.Moyenne;
 public class Main {
     public static void main(String[]args){
         Moyenne moyenne = new Moyenne();

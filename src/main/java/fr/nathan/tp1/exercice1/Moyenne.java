@@ -1,4 +1,4 @@
-package fr.nathan.tp1.exo1;
+package fr.nathan.tp1.exercice1;
 public class Moyenne {
     public int moyenne(int[] notes) {
 
