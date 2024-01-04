@@ -1,6 +1,6 @@
 package fr.nathan.tp2;
 
-public class Salaire  {
+public class Salaire {
 
     private double tauxHoraire;
     public Salaire(double tauxHoraire){
