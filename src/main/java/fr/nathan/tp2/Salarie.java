@@ -4,8 +4,6 @@ public class Salarie {
     private Salaire salaire;
     private Identite identite;
 
-
-
     public Salarie(Salaire salaire, Identite identite){
         this.identite = identite;
         this.salaire = salaire ;
