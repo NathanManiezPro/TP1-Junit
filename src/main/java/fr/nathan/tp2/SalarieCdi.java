@@ -1,4 +1,4 @@
 package fr.nathan.tp2;
 
-public class SalarieCdi {
+public class SalarieCdi{
 }

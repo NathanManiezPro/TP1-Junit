@@ -10,6 +10,14 @@ public class Identite {
         this.prenom = prenom;
         this.adresse = adresse;
     }
+    @Override
+    public String toString() {
+        return "Identite{" +
+                "nom='" + this.nom + '\'' +
+                ", prenom='" + this.prenom+ '\'' +
+                ", adresse=" + this.adresse +
+                '}';
+    }
 
     public String getNom() {
         return nom;
@@ -31,7 +39,7 @@ public class Identite {
         return adresse;
     }
 
-    public void setAdresse(Adresse adresse) {
+    public void setAdresse() {
         this.adresse = adresse;
     }
 }
