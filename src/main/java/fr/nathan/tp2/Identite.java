@@ -1,6 +1,6 @@
 package fr.nathan.tp2;
 
-public class Identite  {
+public class Identite {
     private String nom;
     private String prenom;
     private Adresse adresse;
