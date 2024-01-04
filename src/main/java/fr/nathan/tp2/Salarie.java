@@ -10,7 +10,7 @@ public class Salarie {
         this.identite = identite;
         this.salaire = salaire ;
     }
-    public void demenager(Adresse nouvelleadresse){
+    public void demenager(Adresse adresse){
     this.identite.setAdresse();
 
     }

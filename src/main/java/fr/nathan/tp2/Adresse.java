@@ -13,14 +13,6 @@ public class Adresse {
         this.ville = ville;
         this.pays = pays;
     }
-    @Override
-    public String toString() {
-        return "Adresse{" +
-                "rue='" + rue + '\'' +
-                ", ville='" + ville + '\'' +
-                ", codePostal='" + cp + '\'' +
-                '}';
-    }
     public String getVoie() {
         return voie;
     }
