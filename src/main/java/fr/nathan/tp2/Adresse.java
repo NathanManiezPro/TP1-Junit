@@ -1,6 +1,6 @@
 package fr.nathan.tp2;
 
-public class Adresse {
+public class Adresse  {
     private String voie;
     private String rue;
     private int cp;
