@@ -9,7 +9,7 @@ public class Salarie {
         this.salaire = salaire ;
     }
     public void demenager(Adresse adresse){
-    this.identite.setAdresse();
+        this.identite.setAdresse(adresse);
 
     }
 
@@ -23,7 +23,7 @@ public class Salarie {
     public void augmenter(double pourcentageAugmentation) {
         if (pourcentageAugmentation > 0) {
             double augmentation = (pourcentageAugmentation / 100) * this.salaire.getTauxHoraire();
-            this.salaire.setTauxHoraire(pourcentageAugmentation);
+            this.salaire.setTauxHoraire(augmentation+ salaire.getTauxHoraire());
             System.out.println("Le salaire a été augmenté de " + pourcentageAugmentation + "%. Nouveau salaire : " + this.salaire.getTauxHoraire());
         } else {
             System.out.println("Veuillez fournir un pourcentage d'augmentation positif.");

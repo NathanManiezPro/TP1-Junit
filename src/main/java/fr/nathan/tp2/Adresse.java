@@ -3,13 +3,13 @@ package fr.nathan.tp2;
 public class Adresse  {
     private String voie;
     private String rue;
-    private int cp;
+    private String codePostal;
     private String ville;
     private String pays;
-    public Adresse (String voie, String rue, int cp, String ville, String pays){
+    public Adresse (String voie, String rue, String codePostal, String ville, String pays){
         this.voie = voie;
         this.rue = rue;
-        this.cp = cp;
+        this.codePostal = codePostal;
         this.ville = ville;
         this.pays = pays;
     }
@@ -29,12 +29,12 @@ public class Adresse  {
         this.rue = rue;
     }
 
-    public int getCp() {
-        return cp;
+    public String getCodePostal() {
+        return codePostal;
     }
 
-    public void setCp(int cp) {
-        this.cp = cp;
+    public void setCodePostal(String codePostal) {
+        this.codePostal = codePostal;
     }
 
     public String getVille() {
